@@ -1,0 +1,35 @@
+.shotcallers {
+    position: relative;
+    left:30px;
+}
+.whatyouwant {
+    position: relative;
+    left:180px;
+    bottom: 103px;
+}
+.moveTextMoonwalkin {
+    position: relative;
+    left:37px;
+    bottom:110px;
+}
+.movetextLNGSHOT {
+    position: relative;
+    left: 40px;
+    bottom:120px;
+}
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(255, 231, 243);
+    padding: 0px;
+    margin: 0px
+}
+.navbar a {
+    color: rgb(255, 248, 184);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    
+}
