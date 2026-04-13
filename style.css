@@ -1,27 +1,10 @@
-.shotcallers {
-    position: relative;
-    left:30px;
-}
-.whatyouwant {
-    position: relative;
-    left:180px;
-    bottom: 103px;
-}
-.moveTextMoonwalkin {
-    position: relative;
-    left:37px;
-    bottom:110px;
-}
-.movetextLNGSHOT {
-    position: relative;
-    left: 40px;
-    bottom:120px;
-}
+
 .navbar ul {
     list-style-type: none;
     background-color: rgb(255, 231, 243);
     padding: 0px;
-    margin: 0px
+    margin: 0px;
+    overflow: hidden;
 }
 .navbar a {
     color: rgb(255, 248, 184);
@@ -31,5 +14,72 @@
     text-align: center;
 }
 .navbar a:hover {
+    background-color: rgba(255, 205, 205, 0.824);
+}
+
+.outlinetext {
+    color:rgb(255, 248, 184);
+    -webkit-text-stroke: 0.3px rgb(206, 109, 135);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navbar li {
+    float: left;
+}
+
+.title {
+    font-size: 75px;
+    position: relative;
+    bottom: -25px;
+}
+
+.subtext {
+    position: relative;
+    bottom: -45px;
     
+}
+
+.movesong {
+    position: relative;
+    bottom: -60px;
+    margin-left: 85px;
+    font-size: 20px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(255, 231, 243);
+    -webkit-text-stroke: 0.3px rgb(206, 109, 135);
+    font-size: 20px;
+}
+
+.fontsize {
+    font-size: 16px;
+}
+
+.moveartist {
+    position: relative;
+    bottom: 20px;
+    margin-left: 85px;
+    font-size: 20px;
+}
+
+img {
+    border-radius: 15px;
 }
