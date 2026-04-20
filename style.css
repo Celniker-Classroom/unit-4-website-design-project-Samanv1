@@ -28,12 +28,6 @@
     float: left;
 }
 
-@font-face {
-  font-family: "Amoresa Aged";
-  src: url("fonts/amoresa-aged.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-}
 .title {
     font-size: 70px;
     position: relative;
@@ -129,4 +123,33 @@ tr {
   font-family: "Pinyon Script", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+.textArtist {
+    display:inline-block;
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    border: 5px solid rgb(255, 217, 243);
+}
+
+.movetitle {
+    position:relative;
+    bottom:20px;
+}
+
+.roww {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-left: 300px;
+}
+
+.boxx {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 0 0 calc(50% - 10px); 
 }
