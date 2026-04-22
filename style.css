@@ -142,8 +142,7 @@ tr {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
-  align-items: flex-start;
-  margin-left: 300px;
+  align-items:center;
 }
 
 .boxx {
@@ -151,5 +150,14 @@ tr {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  flex: 0 0 calc(50% - 10px); 
+  flex: 0 0 calc(50% - 10px);
+  justify-content: center; 
+}
+
+
+.teachers-font {
+  font-family: "Teachers", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
