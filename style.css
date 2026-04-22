@@ -40,8 +40,10 @@
 .subtext {
     position: relative;
     bottom: -45px;
-    
+    color:rgb(255, 248, 184);
+    -webkit-text-stroke: 0.5px rgb(206, 109, 135);
 }
+    
 
 .movesong {
     position: relative;
@@ -143,6 +145,8 @@ tr {
   gap: 20px;
   flex-wrap: wrap;
   align-items:center;
+  margin-left: 30px;
+  justify-content: space-evenly;
 }
 
 .boxx {
@@ -160,4 +164,36 @@ tr {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+}
+
+.image-center {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.image-center img {
+  width: 150px;
+  height: 150px;
+}
+
+.decor-wrap {
+  position: relative;
+}
+
+.decor {
+  position: absolute;
+  width: 80px;
+  height: auto;
+  opacity: 0.8;
+}
+
+.decor1 {
+  top: 50px;
+  left: 30px;
+}
+
+.decor2 {
+  bottom: 100px;
+  right: 40px;
 }
